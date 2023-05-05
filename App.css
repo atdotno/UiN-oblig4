@@ -1,0 +1,33 @@
+body {
+  background: rgb(25, 23, 23);
+  color: rgb(231, 232, 231);
+}
+
+.row{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-between; 
+}
+
+#movie-app {
+  flex-grow: 1 1 0px;
+}
+
+.movie-app > .row {
+  overflow-x: auto;
+ 
+}
+
+.image-container {
+  position: pointer;
+  transform: scale(1.1);
+}
+
+.container {
+  position: relative;
+  word-wrap: inherit;
+}
+
+/*image-container :hover */
+
